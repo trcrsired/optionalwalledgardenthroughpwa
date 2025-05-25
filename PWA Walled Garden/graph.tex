@@ -1,0 +1,29 @@
+
+\begin{table*}[h!]
+\centering
+\begin{tabular}{p{3.5cm}p{3.5cm}p{3.5cm}p{3.5cm}}
+\hline
+\textbf{Feature} & \textbf{S/P Mode Toggle} & \textbf{Android} & \textbf{iOS} \\
+\hline\hline
+User Modes & Two distinct modes: S and P. & Single mode, admin rights optional. & No explicit separation, controlled UI. \\
+\hline
+App Ecosystem & PWAs from open App Store; no sideloading. & Native apps, PWAs, APK sideloading. & Exclusive App Store; no sideloading. \\
+\hline
+Browser Accessibility & Browsers disabled in S Mode. & Full browser access. & Full browser access. \\
+\hline
+File Access & Restricted to \texttt{\$HOME/.smode} in S Mode. & Varies; inconsistent sandboxing. & Strict sandboxing. \\
+\hline
+Permission Management & Centralized in P Mode. & Managed per app; manipulable. & Controlled via prompts. \\
+\hline
+Sideloading Support & Forbidden in S Mode. & Fully supported. & Prohibited. \\
+\hline
+Security Focus & Gradual enhancement (e.g., Memory Tagging). & Security varies; fragmentation exists. & Strong, consistent policies. \\
+\hline
+UI Design & Inspired by iPhone for familiarity. & Highly customizable. & Consistent, controlled. \\
+\hline
+App Installation Control & Strictly via App Store in S Mode. & Flexible from various sources. & App Store only. \\
+\hline
+\end{tabular}
+\caption{Comparison of S/P Mode Toggle with Android and iOS.}
+\label{tab:comparison}
+\end{table*}

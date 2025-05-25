@@ -1,0 +1,146 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Evaluation}
+\label{sec:eval}
+
+This is a position paper, so direct evaluation through the implementation of this feature and subsequent data collection on its impact on the Windows security ecosystem is not feasible.
+
+However, extensive evaluations can still be conducted indirectly. For example, comparisons can be made regarding security, performance, and usability relative to existing operating system modes. Other related studies provide valuable data that support and demonstrate the effectiveness.
+
+
+\subsection{App Size}
+
+Progressive Web Apps offer a significant advantage in terms of their smaller binary size compared to Android and iOS applications, a fact supported by various studies and statistics. This advantage stems from two primary factors. First, the browser itself provides numerous built-in functionalities, eliminating the need for individual apps to duplicate code to implement those features. Second, and more importantly, PWAs are essentially websites or web pages. As a result, browsers only download the specific use-case a user requires, unlike Android or iOS apps, which often include features that the user never uses\cite{TheWebIsDead}.
+
+\textit{The Web Is Dead! Long Live The Web! }\cite{TheWebIsDead} by Sam Thorogood highlighted a notable comparison in 2018: the Twitter app on iOS required 186MB, on Android 70MB, while the Twitter Progressive Web App was under 2MB, demonstrating the significant size advantage of PWAs.
+
+The benefits of Progressive Web Apps extend beyond Twitter. According to Microsoft's documentation\cite{MicrosoftEdgePWAs}, Tinder experienced remarkable improvements with its PWA, reducing load times from 11.91 seconds to 4.68 seconds. Additionally, the PWA's size is 90\% smaller compared to the compiled Android app, showcasing its efficiency.
+
+PWAs are consistently smaller in size compared to Android and iOS apps. While certain applications, such as games, may have smaller native versions, developers still have the option to create Win32 sandbox apps for S Mode. Additionally, P Mode remains available, allowing users to access traditional Win32 applications as needed.
+
+\subsection{Security Evaluation}
+
+\autoref{tab:security_comparison} highlights the security measures of the S/P Mode Toggle compared to other operating systems. The S/P Mode Toggle demonstrates notable security advantages over Android and iOS. Under S Mode, the system is significantly more restricted, with features such as the prohibition of direct browser use and the unavailability of numerous settings, ensuring a more locked-down environment. While P Mode is less secure, S Mode offers a reliable solution for non-tech-savvy users or professionals in corporate settings who primarily perform lightweight tasks such as working with Word, Excel, or PowerPoint. For these users, adhering to S Mode provides a strong assurance of a trouble-free experience without the need to transition to P Mode.
+
+S mode toggle uses Progressive Web Apps which are inherently sandboxed by the browser—a system designed as a natural sandbox. This structure offers a higher level of security compared to iOS apps. Furthermore, the browser operates as a WebAssembly virtual machine, allowing memory-unsafe C/C++ applications to run securely within the browser environment. Advanced security mitigations, such as \textit{WebAssembly Memory Tagging}\cite{webassemblymemorytagging}, enhance protection against vulnerabilities. Implementing such mitigations is significantly more challenging with native applications on Android and iOS.
+
+Another significant advantage is the ease of upgrading every component of the system. This includes the app itself, the browser, and the operating system. When any of these components are patched, the system becomes inherently safer. Additionally, since Progressive Web Apps are fundamentally websites, addressing vulnerabilities or implementing feature updates is significantly faster compared to native apps. Moreover, updates for PWAs do not require app store approval, streamlining the process even further.
+
+The S Mode toggle also minimizes the risk of SEO pollution by restricting search engines to only retrieve information from trusted apps. This feature offers a distinct advantage over Android and iOS, as their apps are not inherently SEO-friendly, making such a controlled search experience unattainable. As a result, Android and iOS systems expose non-tech-savvy users to a higher risk of encountering fraudulent content, whereas S Mode provides enhanced protection.
+
+
+\begin{table*}[h!]
+\caption{Comparison of Security Across S/P Mode, Android, iOS, and Windows.}
+\centering
+\begin{tabular}{@{}p{4cm}p{3cm}p{3.5cm}p{2.5cm}p{3cm}@{}}
+\toprule
+\textbf{Security}                  & \textbf{S/P Mode}                            & \textbf{Android}             & \textbf{iOS}                  & \textbf{Windows}             \\
+\midrule
+User Mode Separation              & \cmark\ (S Mode for basic users, P Mode for power users) & \xmark\ (No separation)      & \xmark\ (No separation)       & \cmark\ (Admin/User accounts) \\
+App Restrictions                  & \cmark\ (Only via official store, no sideloading)  & \xmark\ (Sideloading supported) & \cmark\ (Only via App Store)   & \xmark\ (Manual installation allowed) \\
+Browser Restrictions              & \cmark\ (Browser and search disabled, PWA-only access) & \xmark\ (Full browser access)   & \xmark\ (Full browser access)  & \xmark\ (Full browser access) \\
+File Access Restrictions          & \cmark\ (Restricted to \texttt{\$HOME/.smode} directory) & \xmark\ (Varies by device)      & \cmark\ (Strict sandboxing)    & \xmark\ (Full file access)    \\
+Permission Management             & \cmark\ (Centralized in P Mode)                   & \xmark\ (Managed per app)       & \cmark\ (Strict prompts)       & \xmark\ (Scattered permissions) \\
+Update Flexibility                & \cmark\ (Independent OS and browser updates)      & \xmark\ (Highly fragmented)     & \cmark\ (Unified updates)      & \cmark\ (Separate OS/browser updates) \\
+Operating System Updates          & \cmark\ (Frequent updates with patches and features) & \xmark\ (Delayed, depends on vendors) & \cmark\ (Regular and unified) & \cmark\ (User-controlled update strategies) \\
+Sideloading Restrictions                 & \cmark\ (Prohibited in S Mode, allowed in P Mode)  & \xmark\ (Widely supports sideloading) & \cmark\ (Strictly prohibited)  & \xmark\ (Fully supports sideloading) \\
+Search Engine Restrictions        & \cmark\ (Search limited to installed PWA content)  & \xmark\ (Unlimited search)      & \xmark\ (Unlimited search)     & \xmark\ (Unlimited search)    \\
+Browser Security Updates          & \cmark\ (Frequent updates for enhanced protection) & \cmark\ (Depends on the user)   & \cmark\ (Unified control)      & \cmark\ (User-controlled updates) \\
+Setting Restrictions              & \cmark\ (Time and timezone changes disabled)      & \xmark\ (Fully adjustable)      & \cmark\ (Partial restrictions) & \xmark\ (No unified restrictions) \\
+App Sandbox Restrictions          & \cmark\ (Each app runs in its own sandbox)        & \xmark\ (Inconsistent sandboxing) & \cmark\ (Strict sandboxing)    & \xmark\ (Some apps lack sandbox) \\
+Prohibit Executable Files         & \cmark\ (Blocked in S Mode, allowed in P Mode)    & \cmark\ (Executables not supported) & \cmark\ (Strictly prohibited)  & \xmark\ (Executable files allowed) \\
+Ban on Untrusted External Links   & \cmark\ (Only allows links to installed PWAs; user confirmation required) & \xmark\ (Unrestricted external links) & \xmark\ (Unrestricted external links) & \xmark\ (Unrestricted external links) \\
+Side-Channel Mitigations          & \cmark\ (PWAs only from trusted sources; no side-channel risks) & \xmark\ (Susceptible to side-channel risks) & \xmark\ (Partial mitigations) & \xmark\ (Varies by app/system) \\
+Cryptojacking Protection & \cmark\ (No mining due to PWA restrictions)    & \xmark\ (Potentially vulnerable)  & \xmark\ (Open via web browsers) & \xmark\ (Depends on installed apps) \\
+Scareware Protection              & \cmark\ (PWAs vetted through trusted sources)    & \xmark\ (Vulnerable due to open ecosystem) & \xmark\ (Open via web browsers) & \xmark\ (Users must verify software) \\
+Memory Safety Mitigations         & \cmark\ (Incremental measures like WebAssembly Memory Tagging) & \xmark\ (Highly dependent on OS/app implementation) & \xmark\ (Potential kernel exploits from buggy apps) & \xmark\ (Memory safety depends on developer practices) \\
+\bottomrule
+\end{tabular}
+\label{tab:security_comparison}
+\end{table*}
+
+\subsection{Usability Evaluation}
+
+\autoref{tab:usabilitycomparison} provides a usability comparison table. When evaluated alongside Android and iOS, the S/P Mode toggle showcases significant usability advantages. As a simple UI feature integrated into the login screen, the S/P Mode toggle does not alter the way the operating system functions. Users retain the ability to replace their operating systems seamlessly, as they currently can, which is not easily achievable on Android or iOS. Moreover, in P Mode, users can run Win32 .exe PE executables—a feature that is unavailable on iOS. While Android permits some degree of this functionality through Termux, the operating system itself imposes limitations, and running graphical binaries is considerably more challenging compared to Windows.
+
+Additionally, the S/P Mode toggle enhances usability for non-tech-savvy users by providing a secure and simplified experience in S Mode. This eliminates concerns about malware or complex system details, giving these users the opportunity to focus on learning to use a computer safely before transitioning to P Mode.
+
+Chromium extensions significantly enhance usability compared to Android and iOS apps in our S mode toggle. Chromium-based extensions enable extensive customization options for apps, far surpassing the capabilities of Android and iOS. Additionally, browser functionalities on Android are more limited than those on Windows; for instance, Google Chrome on Android lacks support for extensions. While Microsoft Edge now offers extension support on Android, this feature remains unavailable on iOS, further highlighting the advantages of browser-based customization in S Mode.
+
+The developer experience in our S/P Mode far surpasses that of proprietary software development on platforms like Android and iOS. The web operates as an open standard, enabling developers to compile C/C++ code into WebAssembly and run it seamlessly across all platforms. In contrast, Android and iOS impose restrictions on the programming languages developers can easily use and require separate development efforts for each platform. With S/P Mode, developers benefit from using PWAs in S Mode or Win32 APIs in P Mode—both of which are well-established, widely understood, and fully supported by mainstream platforms (Win32 APIs are compatible through wine).
+
+From a usability perspective, comparing our S/P Mode toggle to Windows S Mode reveals significant limitations in the latter. Windows S Mode lacks apps, and once users switch out of it, there is no option to revert back. Furthermore, it fails to protect users from scams originating from Microsoft Edge and Bing. Additionally, it offers no safeguards for power users, as they cannot utilize Windows S Mode effectively. It also does not prevent users from accidentally altering critical settings like date and time. In contrast, our S/P Mode toggle stands out with its high level of customization, making it versatile and suitable for both simple users and power users, addressing a broad range of use cases with tailored solutions.
+
+\begin{table*}[h!]
+\caption{Usability Comparison: S/P Mode, Android, iOS, Windows S Mode, and Standard Windows}
+\centering
+\begin{tabular}{@{}p{2cm}p{2cm}p{3cm}p{3cm}p{3cm}p{3cm}@{}}
+\toprule
+\textbf{Usability}                    & \textbf{S/P Mode}                        & \textbf{Android}                  & \textbf{iOS}                     & \textbf{Windows S Mode}           & \textbf{Windows}                  \\
+\midrule
+Operating System Replacement Support & \cmark\ (Full control, OS replacement possible) & \xmark\ (Hardware restrictions, nearly impossible)  & \xmark\ (Completely closed, no OS replacement)   & \xmark\ (Requires exiting S Mode) & \cmark\ (Open but limited by hardware compatibility) \\
+Mode Switching                        & \cmark\ (Seamless switching between S and P Mode) & \xmark\ (No mode switching)       & \xmark\ (No mode switching)       & \xmark\ (Cannot switch without exiting S Mode) & \cmark\ (Supports admin and user switching)          \\
+Application Installation Options      & \cmark\ (Supports official store, PWA, and sideload in P Mode) & \cmark\ (Supports store, APK, and sideloading) & \xmark\ (Restricted to App Store apps) & \xmark\ (Restricted to Microsoft Store apps) & \cmark\ (Supports store and sideloading)             \\
+File Access                           & \cmark\ (S Mode restricts directories, P Mode allows full access) & \cmark\ (Supports sandbox and external access)   & \xmark\ (Strict sandbox restrictions)  & \xmark\ (Limited access to system directories) & \cmark\ (Full file access)                           \\
+Web Browsing Support                  & \cmark\ (S Mode disables browser, P Mode supports full browser) & \cmark\ (Powerful, open browser support) & \cmark\ (Browser supported with limitations) & \xmark\ (Restricted to Microsoft Edge) & \cmark\ (Full browser functionality supported)       \\
+Settings Flexibility                  & \cmark\ (S Mode restricts critical settings, P Mode allows customization) & \cmark\ (Full user control)       & \xmark\ (Partially restricted)     & \xmark\ (Strict restrictions on changing settings) & \cmark\ (Complete customization freedom)            \\
+Application Exclusivity               & \cmark\ (PWA in S Mode, compatible across platforms) & \xmark\ (Applications limited to Android devices) & \xmark\ (Applications limited to iOS devices) & \xmark\ (Applications limited to Windows environment) & \cmark\ (Supports applications across environments)  \\
+Application Update Method             & \cmark\ (Developers update directly, no app store required) & \xmark\ (Dependent on app store updates) & \xmark\ (Must go through App Store) & \xmark\ (Requires Microsoft Store for updates) & \cmark\ (Supports direct updates by developers)      \\
+Programming Language Support          & \cmark\ (Supports WebAssembly, compatible with C++) & \xmark\ (Primarily Java/Kotlin)  & \xmark\ (Primarily Objective-C/Swift) & \xmark\ (Limited frameworks and language support) & \cmark\ (Supports diverse languages including C++)   \\
+\bottomrule
+\end{tabular}
+\label{tab:usabilitycomparison}
+\end{table*}
+
+\subsection{Performance evaluation}
+
+\autoref{tab:performance_comparison} presents the performance evaluation of the S/P Mode. Compared to traditional Windows setups, one notable advantage is that PWAs, being web pages, benefit from Microsoft Edge's smart sleep functionality, which is the most power efficient compared to other browsers on Windows\cite{DigitalCitizenBatteryTest}. Microsoft Edge puts background web pages into sleep mode\cite{MicrosoftEdgeSleepingTabs, MicrosoftEdgePerformance}—a feature not feasible for Win32 applications, as standard C/C++ binaries lack built-in support for app suspension. Consequently, the OS kernel must save the entire state when the user closes the lid. When users logins with the S Mode instead of P Mode, the system becomes significantly lightweight as it exclusively runs Progressive Web Apps. This design enhances Windows' power efficiency for lightweight tasks, surpassing the power efficiency of traditional Win32 configurations.
+
+In contrast to Android and iOS, PWAs in S Mode utilize the shared Edge browser engine, while P Mode takes advantage of shared Windows DLLs across various applications, as it functions like standard Windows. This architectural design ensures performance benefits optimized for each mode. Additionally, S/P Mode offers superior resource sharing in both S and P modes, unlike Android and iOS apps, where each app operates within a separate app sandbox.
+
+\begin{table*}[h!]
+\caption{Performance Comparison: S/P Mode, Android, iOS, Windows S Mode, and Standard Windows}
+\centering
+\begin{tabular}{@{}p{2cm}p{2cm}p{3cm}p{3cm}p{3cm}p{3cm}@{}}
+\toprule
+\textbf{Performance}       & \textbf{S/P Mode}                        & \textbf{Android}                  & \textbf{iOS}                     & \textbf{Windows S Mode}           & \textbf{Windows}                  \\
+\midrule
+Resource Usage                      & \cmark\ (PWA is lightweight, downloads only necessary content) & \xmark\ (Applications depend on virtual machine, leading to inefficiency) & \xmark\ (Applications tend to be larger due to high-resolution assets) & \xmark\ (Applications have higher local storage requirements) & \cmark\ (Shared system resources reduce redundancy) \\
+Performance Optimization            & \cmark\ (WebAssembly provides near-native performance)          & \xmark\ (Java virtual machine introduces performance bottlenecks)       & \cmark\ (Native code delivers stable performance)                      & \xmark\ (Optimizations depend on app development quality)    & \cmark\ (Optimization depends on developer and hardware)     \\
+Background Sleep Support            & \cmark\ (PWA pages naturally sleep when inactive)               & \xmark\ (Some apps have frequent background activity)                  & \xmark\ (Apps must be tailored for sleep modes)                       & \xmark\ (Most apps cause significant background energy drain) & \xmark\ (Apps must be specifically modified to fully sleep)  \\
+Energy Consumption                  & \cmark\ (Unified browser manages resources efficiently, reducing power draw) & \xmark\ (Energy usage depends on app and device quality)              & \xmark\ (Sandbox environment adds resource overhead)                  & \xmark\ (Background resources are not fully optimized)        & \xmark\ (Energy draw varies without unified management)       \\
+Shared Resource Model               & \cmark\ (Browser provides shared pool for all PWA applications) & \xmark\ (Sandbox applications rarely share resources)                 & \xmark\ (Sandbox isolates application resources)                     & \xmark\ (Applications are isolated, with no shared mechanism) & \cmark\ (Applications share system resources effectively)     \\
+Update Impact                       & \cmark\ (Only relevant content is updated, reducing resource strain) & \xmark\ (Full updates require downloading large packages)             & \xmark\ (System updates tend to bundle unnecessary data)             & \xmark\ (System updates cause significant overhead)           & \xmark\ (Update impact depends on user management)            \\
+\bottomrule
+\end{tabular}
+\label{tab:performance_comparison}
+\end{table*}
+
+\subsection{Deployment Evaluation}
+
+\autoref{tab:sp_vs_group_policies} presents a comparison between the S/P Mode toggle and Windows Group policies. Unlike traditional tools such as Windows administrative group policies, the S/P Mode toggle is designed with simplicity in mind, making it highly accessible to average users. By merely switching to S Mode, users can enable a secure, locked-down walled garden environment without requiring additional configurations. While group policies can achieve comparable results, their complexity necessitates an IT administrator, posing challenges for non-tech-savvy individuals who purchase computers from retail stores like Walmart or Best Buy. The S/P Mode toggle eliminates this barrier, offering an intuitive solution that ensures system security with minimal effort.
+
+This model offers additional deployment advantages, as it is compatible with all existing operating systems, including Linux and macOS. Users of Linux, macOS, or even future operating systems can seamlessly benefit from the S/P Mode toggle, enjoying both enhanced security and improved usability without sacrificing any current functionalities. Progressive Web Apps seamlessly operate on Linux today without any complications. This is because the web serves as a universal platform that is inherently platform-agnostic, ensuring compatibility across various operating systems. Moreover, the simplicity of this model allows individual users to deploy it independently, eliminating the need to rely on an IT professional for setup.
+
+\begin{table*}[h!]
+\centering
+\caption{Comparison: S/P Mode Toggle vs. Windows Group Policies}
+\begin{tabular}{@{}p{4.5cm}p{5.5cm}p{5.5cm}@{}}
+\toprule
+\textbf{Feature}                      & \textbf{S/P Mode Toggle}                     & \textbf{Windows Group Policies}              \\
+\midrule
+Configuration Method                  & Simple toggle between S Mode and P Mode via user interface, designed for all users & Configured through administrative tools like gpedit.msc or Active Directory, requiring technical expertise \\
+Target Audience                       & Everyday users (S Mode) and advanced users (P Mode)                                & IT professionals and system administrators managing organizational environments \\
+Implementation Complexity             & \cmark\ (User-friendly, minimal setup required; no technical knowledge needed)     & \xmark\ (Highly complex, configuration requires expertise, not suitable for non-tech-savvy users) \\
+Dynamic Adjustment                    & \cmark\ (Users can instantly switch between S and P Mode based on needs)           & \xmark\ (Requires admin approval and pre-configuration; adjustments are not user-initiated) \\
+Scope of Control                      & Individual user-level settings (toggle per device)                                 & Organization-wide enforcement across multiple devices and users \\
+Feature Granularity                   & Limited to mode-based controls (e.g., app installation, resource access)           & Highly granular (controls registry, software restrictions, network policies, etc.) \\
+Ease of Rollback                      & \cmark\ (Instantly revert back to S Mode)                                          & \xmark\ (Rollback requires manual reconfiguration or scripts, not easy for average users) \\
+Security Management                   & \cmark\ (Switch to P Mode for flexibility; back to S Mode for strict controls)      & \cmark\ (Powerful organizational security enforcement, but complex to implement) \\
+Admin Rights Requirement              & \xmark\ (No admin privileges needed for toggling modes)                            & \cmark\ (Admin rights are mandatory for setup, changes, and enforcement) \\
+Usability for Everyday Users          & \cmark\ (Ideal for non-technical users who rely on basic apps like Word/Excel)      & \xmark\ (Overwhelming and inaccessible for users who only need basic functionality) \\
+Usage Scalability                     & Best suited for single-user or device-level control                                 & Designed for enterprise-level deployments, not casual individual usage \\
+Integration with External Systems     & \cmark\ (Integrates with cloud services, PWAs support APIs for external communication) & \cmark\ (Extensive integration with Windows Server, Azure AD, enterprise tools) \\
+\bottomrule
+\end{tabular}
+\label{tab:sp_vs_group_policies}
+\end{table*}
