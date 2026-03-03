@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  3 MAR 2026 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  3 MAR 2026 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2133,10 +2133,10 @@ Overfull \hbox (3.85474pt too wide) in paragraph at lines 6--7
 Zhang, Hua, Wen, Qiaoyan,
  []
 
-) (conclusion.tex) (main.bbl
-Underfull \vbox (badness 1189) has occurred while \output is active []
+) (conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9.9]
+) (main.bbl [9.9]
 Underfull \hbox (badness 10000) in paragraph at lines 310--320
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) Jerry Hilden-brand. 2021.  An-droid will 
 never be sup-ported
@@ -2159,9 +2159,6 @@ Overfull \hbox (26.7865pt too wide) in paragraph at lines 310--320
 \T1/LinuxLibertineT-TLF/m/n/7 (-20) android-[]will-[]never-[]be-[]supported-[]r
 egular-[]linux-[]kernel-[]thats-[]not-[]stopping-[]google-[]trying$[]
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 2393) in paragraph at lines 678--687
@@ -2230,11 +2227,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  52433 strings out of 467871
  1197180 string characters out of 5418377
- 1711686 words of memory out of 5000000
+ 1712686 words of memory out of 5000000
  79696 multiletter control sequences out of 15000+600000
  764177 words of font info for 390 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,2944b,1311s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,2944b,1309s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/
 Inconsolata-zi4b.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/unlvs/AppData/Local/Programs/
@@ -2245,7 +2242,7 @@ fb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/L
 inLibertineTB.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/libertine/LinLibertineTI.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (10 pages, 619855 bytes).
+Output written on main.pdf (10 pages, 619902 bytes).
 PDF statistics:
  502 PDF objects out of 1000 (max. 8388607)
  140 named destinations out of 1000 (max. 500000)
