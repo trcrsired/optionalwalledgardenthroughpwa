@@ -468,6 +468,20 @@
 \url{https://doi.org/10.1016/j.knosys.2018.04.033}}
 
 
+\bibitem[\protect\citeauthoryear{{Notepad++ Project}}{{Notepad++
+  Project}}{2025}]%
+        {notepadSelfSigned}
+\bibfield{author}{\bibinfo{person}{{Notepad++ Project}}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Notepad++ v8.8.3: Self-Signed Certificate}.
+\newblock
+  \bibinfo{howpublished}{\url{https://notepad-plus-plus.org/news/v883-self-signed-certificate}}.
+    (\bibinfo{year}{2025}).
+\newblock
+\newblock
+\shownote{Accessed: 2025-07-09.}
+
+
 \bibitem[\protect\citeauthoryear{of~Justice}{of~Justice}{2024}]%
         {usdoj2024apple}
 \bibfield{author}{\bibinfo{person}{United States~Department of Justice}.}

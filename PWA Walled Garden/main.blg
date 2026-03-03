@@ -7,7 +7,6 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: bib.bib
-Warning--I didn't find a database entry for "notepadSelfSigned"
 Warning--I didn't find a database entry for "perzanowskiEndOfOwnership"
 Warning--I didn't find a database entry for "wasmMemoryTagging2024"
 Warning--no key, author in statcounter
@@ -40,45 +39,45 @@ Warning--page numbers missing in both pages and numpages fields in rasthofer2014
 Warning--empty publisher in 6377758
 Warning--empty address in 6377758
 Warning--numpages field, but no articleno or eid field, in 10.1145/2484313.2484316
-You've used 55 entries,
+You've used 56 entries,
             5706 wiz_defined-function locations,
-            1628 strings with 25918 characters,
-and the built_in function-call counts, 75714 in all, are:
-= -- 9766
-> -- 1729
+            1632 strings with 26067 characters,
+and the built_in function-call counts, 76418 in all, are:
+= -- 9846
+> -- 1749
 < -- 0
-+ -- 476
-- -- 2762
-* -- 5346
-:= -- 7436
-add.period$ -- 305
-call.type$ -- 55
-change.case$ -- 334
-chr.to.int$ -- 49
-cite$ -- 88
-duplicate$ -- 3962
-empty$ -- 2954
-format.name$ -- 682
-if$ -- 15295
++ -- 480
+- -- 2770
+* -- 5388
+:= -- 7518
+add.period$ -- 311
+call.type$ -- 56
+change.case$ -- 339
+chr.to.int$ -- 50
+cite$ -- 89
+duplicate$ -- 4022
+empty$ -- 3001
+format.name$ -- 690
+if$ -- 15450
 int.to.chr$ -- 7
 int.to.str$ -- 0
 missing$ -- 78
-newline$ -- 630
-num.names$ -- 426
-pop$ -- 1689
+newline$ -- 640
+num.names$ -- 434
+pop$ -- 1712
 preamble$ -- 1
-purify$ -- 603
+purify$ -- 613
 quote$ -- 0
-skip$ -- 1694
+skip$ -- 1720
 stack$ -- 0
-substring$ -- 11528
-swap$ -- 372
+substring$ -- 11574
+swap$ -- 375
 text.length$ -- 4316
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1530
+type$ -- 1560
 warning$ -- 29
-while$ -- 422
+while$ -- 430
 width$ -- 0
-write$ -- 1150
-(There were 32 warnings)
+write$ -- 1170
+(There were 31 warnings)
