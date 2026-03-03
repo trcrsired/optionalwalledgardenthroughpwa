@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  3 MAR 2026 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  3 MAR 2026 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1991,19 +1991,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-
-Package natbib Warning: Citation `nixingthefix' on page 1 undefined on input li
-ne 8.
-
-
-Package natbib Warning: Citation `win11mustbestopped' on page 1 undefined on in
-put line 14.
-
-
-Package natbib Warning: Citation `ownnothingbehappy' on page 1 undefined on inp
-ut line 16.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1.1{C:/Users/unlvs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users
@@ -2034,7 +2021,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1859) has occurred while \output is active []
 
  [3.3]
-<threatmodel.png, id=209, 1972.36874pt x 408.52625pt>
+<threatmodel.png, id=215, 1972.36874pt x 408.52625pt>
 File: threatmodel.png Graphic file (type png)
 <use threatmodel.png>
 Package pdftex.def Info: threatmodel.png  used on input line 59.
@@ -2046,12 +2033,12 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (methodology.tex
-<demo.jpg, id=212, 407.5225pt x 314.17375pt>
+<demo.jpg, id=218, 407.5225pt x 314.17375pt>
 File: demo.jpg Graphic file (type jpg)
 <use demo.jpg>
 Package pdftex.def Info: demo.jpg  used on input line 11.
 (pdftex.def)             Requested size: 202.51491pt x 156.1277pt.
-<smodearch.png, id=215, 582.175pt x 672.5125pt>
+<smodearch.png, id=221, 582.175pt x 672.5125pt>
 File: smodearch.png Graphic file (type png)
 <use smodearch.png>
 Package pdftex.def Info: smodearch.png  used on input line 23.
@@ -2060,7 +2047,7 @@ Package pdftex.def Info: smodearch.png  used on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<walledgarden.png, id=216, 482.80376pt x 201.75375pt>
+<walledgarden.png, id=222, 482.80376pt x 201.75375pt>
 File: walledgarden.png Graphic file (type png)
 <use walledgarden.png>
 Package pdftex.def Info: walledgarden.png  used on input line 30.
@@ -2242,12 +2229,7 @@ www . ftc . gov / news-[]events / events / 2019 / 07 /
 
 Package natbib Warning: There were undefined citations.
 
-[10.10] (main.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+[10.10] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -2264,11 +2246,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9F3865F8FFD2F92F2A44CC787C8ADD98;4618.
  ) 
 Here is how much of TeX's memory you used:
- 52424 strings out of 467871
- 1196960 string characters out of 5418377
+ 52421 strings out of 467871
+ 1196882 string characters out of 5418377
  1708686 words of memory out of 5000000
  79687 multiletter control sequences out of 15000+600000
- 764336 words of font info for 392 fonts, out of 8000000 for 9000
+ 764071 words of font info for 390 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  90i,12n,131p,2944b,1311s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/
@@ -2281,9 +2263,9 @@ fb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/L
 inLibertineTB.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/libertine/LinLibertineTI.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (10 pages, 616551 bytes).
+Output written on main.pdf (10 pages, 617137 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
+ 489 PDF objects out of 1000 (max. 8388607)
  137 named destinations out of 1000 (max. 500000)
  62725 words of extra memory for PDF output out of 74296 (max. 10000000)
 
