@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  3 MAR 2026 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  3 MAR 2026 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2002,12 +2002,7 @@ gpa5.enc}
 77jq.enc}{C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
 e/lbtn_7grukw.enc}{C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
 /inconsolata/i4-t1-4.enc}{C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/en
-c/dvips/libertine/lbtn_naooyc.enc}]
-
-Package natbib Warning: Citation `10.7551/mitpress/9780262035019.001.0001' on p
-age 2 undefined on input line 20.
-
-) (background.tex
+c/dvips/libertine/lbtn_naooyc.enc}]) (background.tex
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 10.95pt on input line 3.
  [2.2]
@@ -2017,7 +2012,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1859) has occurred while \output is active []
 
  [3.3]
-<threatmodel.png, id=217, 1972.36874pt x 408.52625pt>
+<threatmodel.png, id=219, 1972.36874pt x 408.52625pt>
 File: threatmodel.png Graphic file (type png)
 <use threatmodel.png>
 Package pdftex.def Info: threatmodel.png  used on input line 59.
@@ -2029,12 +2024,12 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (methodology.tex
-<demo.jpg, id=220, 407.5225pt x 314.17375pt>
+<demo.jpg, id=222, 407.5225pt x 314.17375pt>
 File: demo.jpg Graphic file (type jpg)
 <use demo.jpg>
 Package pdftex.def Info: demo.jpg  used on input line 11.
 (pdftex.def)             Requested size: 202.51491pt x 156.1277pt.
-<smodearch.png, id=223, 582.175pt x 672.5125pt>
+<smodearch.png, id=225, 582.175pt x 672.5125pt>
 File: smodearch.png Graphic file (type png)
 <use smodearch.png>
 Package pdftex.def Info: smodearch.png  used on input line 23.
@@ -2043,7 +2038,7 @@ Package pdftex.def Info: smodearch.png  used on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<walledgarden.png, id=224, 482.80376pt x 201.75375pt>
+<walledgarden.png, id=226, 482.80376pt x 201.75375pt>
 File: walledgarden.png Graphic file (type png)
 <use walledgarden.png>
 Package pdftex.def Info: walledgarden.png  used on input line 30.
@@ -2121,11 +2116,6 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.6pt on input line 21.
 
-
-Package natbib Warning: Citation `wasmMemoryTagging2024' on page 7 undefined on
- input line 33.
-
-
 Overfull \hbox (9.09787pt too wide) in paragraph at lines 42--43
 []\T1/LinuxLibertineT-TLF/m/n/9 (-20) GrapheneOS can be flashed via We-bUSB in 
 Chromium browsers. 
@@ -2174,58 +2164,54 @@ egular-[]linux-[]kernel-[]thats-[]not-[]stopping-[]google-[]trying$[]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 664--673
+Underfull \hbox (badness 2393) in paragraph at lines 678--687
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) Microsoft Sup-port. Ac-cess Year.  Win-do
 ws 10 and Win-dows 11 in S
  []
 
 
-Overfull \hbox (19.25697pt too wide) in paragraph at lines 664--673
+Overfull \hbox (19.25697pt too wide) in paragraph at lines 678--687
 \T1/LinuxLibertineT-TLF/m/n/7 (-20) windows-[]10-[]and-[]windows-[]11-[]in-[]s-
 []mode-[]faq-[]851057d6-[]1ee9-[]b9e5-[]c30b-[]93baebeebc85$[]
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 677--686
+Underfull \hbox (badness 3323) in paragraph at lines 691--700
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) Microsoft Edge Team. 2025.  Stand up to s
 care-ware with scare-ware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--686
+Underfull \hbox (badness 10000) in paragraph at lines 691--700
 \T1/LinuxLibertineT-TLF/m/n/7 (+20) blocker.  (2025).  []$https : / / blogs . w
 indows . com / msedgedev / 2025 / 01 / 27 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--712
+Underfull \hbox (badness 10000) in paragraph at lines 717--726
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) Peter "Du-rante" Thoman. 2016.  Why PC ga
 mes should never
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--712
+Underfull \hbox (badness 10000) in paragraph at lines 717--726
 \T1/LinuxLibertineT-TLF/m/n/7 (+20) be-come uni-ver-sal 'apps'.  (2016).  []$ht
 tps : / / www . pcgamer . com /
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 717--726
+Underfull \hbox (badness 7344) in paragraph at lines 731--740
 []\T1/LinuxLibertineT-TLF/m/n/7 (+20) U.S. Fed-eral Trade Com-mis-sion. 2019.  
 Nix-ing the Fix: Work-shop
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 717--726
+Underfull \hbox (badness 1565) in paragraph at lines 731--740
 \T1/LinuxLibertineT-TLF/m/n/7 (+20) on Re-pair Re-stric-tions.  []$https : / / 
 www . ftc . gov / news-[]events / events / 2019 / 07 /
  []
 
-) (appendix.tex)
-
-Package natbib Warning: There were undefined citations.
-
-[10.10] (main.aux)
+) (appendix.tex) [10.10] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -2242,11 +2228,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9F3865F8FFD2F92F2A44CC787C8ADD98;4618.
  ) 
 Here is how much of TeX's memory you used:
- 52425 strings out of 467871
- 1196979 string characters out of 5418377
- 1709686 words of memory out of 5000000
- 79690 multiletter control sequences out of 15000+600000
- 764071 words of font info for 390 fonts, out of 8000000 for 9000
+ 52433 strings out of 467871
+ 1197180 string characters out of 5418377
+ 1711686 words of memory out of 5000000
+ 79696 multiletter control sequences out of 15000+600000
+ 764177 words of font info for 390 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  90i,12n,131p,2944b,1311s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/
@@ -2259,9 +2245,9 @@ fb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/L
 inLibertineTB.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/libertine/LinLibertineTI.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (10 pages, 618046 bytes).
+Output written on main.pdf (10 pages, 619855 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
  62725 words of extra memory for PDF output out of 74296 (max. 10000000)
 

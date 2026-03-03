@@ -7,8 +7,6 @@ Reallocating 'name_of_file' (item size: 1) to 4 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: bib.bib
-Warning--I didn't find a database entry for "perzanowskiEndOfOwnership"
-Warning--I didn't find a database entry for "wasmMemoryTagging2024"
 Warning--no key, author in statcounter
 Warning--no author, editor, organization, or key in statcounter
 Warning--to sort, need author or key in statcounter
@@ -31,6 +29,7 @@ Warning--numpages field, but no articleno or eid field, in 10.1145/3079856.30802
 Warning--numpages field, but no articleno or eid field, in 10.1016/j.knosys.2018.04.033
 Warning--empty publisher in 7178304
 Warning--empty address in 7178304
+Warning--empty address in endofownership
 Warning--numpages field, but no articleno or eid field, in 10.1145/3385412.3386036
 Warning--can't use both volume and number fields in rasthofer2014machine
 Warning--empty publisher in rasthofer2014machine
@@ -38,46 +37,47 @@ Warning--empty address in rasthofer2014machine
 Warning--page numbers missing in both pages and numpages fields in rasthofer2014machine
 Warning--empty publisher in 6377758
 Warning--empty address in 6377758
+Warning--numpages field, but no articleno or eid field, in wasmMemoryTagging2024
 Warning--numpages field, but no articleno or eid field, in 10.1145/2484313.2484316
-You've used 56 entries,
+You've used 58 entries,
             5706 wiz_defined-function locations,
-            1632 strings with 26067 characters,
-and the built_in function-call counts, 76418 in all, are:
-= -- 9846
-> -- 1749
+            1646 strings with 26460 characters,
+and the built_in function-call counts, 78377 in all, are:
+= -- 10059
+> -- 1825
 < -- 0
-+ -- 480
-- -- 2770
-* -- 5388
-:= -- 7518
-add.period$ -- 311
-call.type$ -- 56
-change.case$ -- 339
-chr.to.int$ -- 50
-cite$ -- 89
-duplicate$ -- 4022
-empty$ -- 3001
-format.name$ -- 690
-if$ -- 15450
++ -- 506
+- -- 2802
+* -- 5524
+:= -- 7739
+add.period$ -- 322
+call.type$ -- 58
+change.case$ -- 351
+chr.to.int$ -- 52
+cite$ -- 93
+duplicate$ -- 4190
+empty$ -- 3116
+format.name$ -- 730
+if$ -- 15891
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 78
-newline$ -- 640
-num.names$ -- 434
-pop$ -- 1712
+missing$ -- 85
+newline$ -- 661
+num.names$ -- 450
+pop$ -- 1780
 preamble$ -- 1
-purify$ -- 613
+purify$ -- 635
 quote$ -- 0
-skip$ -- 1720
+skip$ -- 1797
 stack$ -- 0
-substring$ -- 11574
-swap$ -- 375
+substring$ -- 11694
+swap$ -- 398
 text.length$ -- 4316
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1560
-warning$ -- 29
-while$ -- 430
+type$ -- 1605
+warning$ -- 31
+while$ -- 447
 width$ -- 0
-write$ -- 1170
+write$ -- 1212
 (There were 31 warnings)

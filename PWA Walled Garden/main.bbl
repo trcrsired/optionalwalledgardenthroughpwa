@@ -526,6 +526,20 @@
 \url{https://doi.org/10.1109/ICASSP.2015.7178304}}
 
 
+\bibitem[\protect\citeauthoryear{Perzanowski and Schultz}{Perzanowski and
+  Schultz}{2016}]%
+        {endofownership}
+\bibfield{author}{\bibinfo{person}{Aaron Perzanowski} {and}
+  \bibinfo{person}{Jason Schultz}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em The End of Ownership: Personal Property in
+  the Digital Economy}}.
+\newblock \bibinfo{publisher}{The MIT Press}.
+\newblock
+\showISBNx{9780262035019}
+\showDOI{%
+\url{https://doi.org/10.7551/mitpress/9780262035019.001.0001}}
+
+
 \bibitem[\protect\citeauthoryear{Project}{Project}{nda}]%
         {androidvulnerabilitiesByYear}
 \bibfield{author}{\bibinfo{person}{Android~Vulnerabilities Project}.}
@@ -764,6 +778,21 @@
 \newblock
 \shownote{Streamed live, 64 views as of access. No description provided.
   Accessed: 2025-03-23.}
+
+
+\bibitem[\protect\citeauthoryear{Wang and Prakash}{Wang and Prakash}{2025}]%
+        {wasmMemoryTagging2024}
+\bibfield{author}{\bibinfo{person}{Shengdun Wang} {and}
+  \bibinfo{person}{Aravind Prakash}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{WebAssembly Memory Tagging}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 2025 Cloud Computing Security
+  Workshop}} {\em (\bibinfo{series}{CCSW '25})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{63–79}.
+\newblock
+\showISBNx{9798400719011}
+\showDOI{%
+\url{https://doi.org/10.1145/3733812.3765536}}
 
 
 \bibitem[\protect\citeauthoryear{WebAssembly}{WebAssembly}{2025}]%
