@@ -334,6 +334,20 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{{Jody Bruchon}}{{Jody Bruchon}}{2021}]%
+        {win11mustbestopped}
+\bibfield{author}{\bibinfo{person}{{Jody Bruchon}}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Windows 11 Must Be Stopped - A Veteran PC Repair Shop
+  Owner's Dire Warning}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.youtube.com/watch?v=LcafzHL8iBQ}}.
+  (\bibinfo{year}{2021}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
 \bibitem[\protect\citeauthoryear{{Keep Android Open Project}}{{Keep Android
   Open Project}}{2024}]%
         {keepandroidopen}
@@ -683,6 +697,20 @@
 \shownote{Accessed: 2025-03-21.}
 
 
+\bibitem[\protect\citeauthoryear{{U.S. Federal Trade Commission}}{{U.S. Federal
+  Trade Commission}}{2019}]%
+        {nixingthefix}
+\bibfield{author}{\bibinfo{person}{{U.S. Federal Trade Commission}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Nixing the Fix: Workshop on Repair Restrictions}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.ftc.gov/news-events/events/2019/07/nixing-fix-workshop-repair-restrictions}}.
+    (\bibinfo{year}{2019}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
 \bibitem[\protect\citeauthoryear{user}{user}{2020}]%
         {githubRufusUWP}
 \bibfield{author}{\bibinfo{person}{GitHub user}.}
@@ -762,6 +790,20 @@
 \showISBNx{9781450317672}
 \showDOI{%
 \url{https://doi.org/10.1145/2484313.2484316}}
+
+
+\bibitem[\protect\citeauthoryear{{World Economic Forum}}{{World Economic
+  Forum}}{2026}]%
+        {ownnothingbehappy}
+\bibfield{author}{\bibinfo{person}{{World Economic Forum}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{8 predictions for the world in 2030}.
+\newblock
+  \bibinfo{howpublished}{\url{https://x.com/wef/status/983378870819794945}}.
+  (\bibinfo{year}{2026}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
 
 
 \end{thebibliography}

@@ -40,45 +40,45 @@ Warning--page numbers missing in both pages and numpages fields in rasthofer2014
 Warning--empty publisher in 6377758
 Warning--empty address in 6377758
 Warning--numpages field, but no articleno or eid field, in 10.1145/2484313.2484316
-You've used 52 entries,
+You've used 55 entries,
             5706 wiz_defined-function locations,
-            1616 strings with 25458 characters,
-and the built_in function-call counts, 73602 in all, are:
-= -- 9526
-> -- 1669
+            1628 strings with 25918 characters,
+and the built_in function-call counts, 75714 in all, are:
+= -- 9766
+> -- 1729
 < -- 0
-+ -- 464
-- -- 2738
-* -- 5220
-:= -- 7190
-add.period$ -- 287
-call.type$ -- 52
-change.case$ -- 319
-chr.to.int$ -- 46
-cite$ -- 85
-duplicate$ -- 3782
-empty$ -- 2813
-format.name$ -- 658
-if$ -- 14830
++ -- 476
+- -- 2762
+* -- 5346
+:= -- 7436
+add.period$ -- 305
+call.type$ -- 55
+change.case$ -- 334
+chr.to.int$ -- 49
+cite$ -- 88
+duplicate$ -- 3962
+empty$ -- 2954
+format.name$ -- 682
+if$ -- 15295
 int.to.chr$ -- 7
 int.to.str$ -- 0
 missing$ -- 78
-newline$ -- 600
-num.names$ -- 402
-pop$ -- 1620
+newline$ -- 630
+num.names$ -- 426
+pop$ -- 1689
 preamble$ -- 1
-purify$ -- 573
+purify$ -- 603
 quote$ -- 0
-skip$ -- 1616
+skip$ -- 1694
 stack$ -- 0
-substring$ -- 11390
-swap$ -- 363
+substring$ -- 11528
+swap$ -- 372
 text.length$ -- 4316
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1440
+type$ -- 1530
 warning$ -- 29
-while$ -- 398
+while$ -- 422
 width$ -- 0
-write$ -- 1090
+write$ -- 1150
 (There were 32 warnings)
