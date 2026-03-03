@@ -40,10 +40,6 @@ Browsers are considered unsafe and are strictly prohibited for direct use. They 
 
 Search engines are also regarded as unsafe and are disallowed in S Mode. This restriction helps prevent phishing attempts, blocks access to fake websites, and mitigates the growing issue of SEO pollution\cite{10.1007/978-3-031-56063-7_4}. Users are limited to searching only within the websites of installed PWAs, and are encouraged to rely on AI-powered chatbots, such as Microsoft Copilot, ChatGPT, or Deepseek, for accessing web content securely.
 
-\subsubsection{Browser Running Within the App Sandbox in S Mode}
-
-In S Mode, the browser application itself should operate within the App Sandbox\cite{MicrosoftAppIsolationOverview} to add an additional layer of defense. This setup ensures that PWAs are not only sandboxed by the browser but also benefit from the security of the App Sandbox encapsulating the browser. This dual-layer protection strengthens security by combining the isolated environments of both the browser and the App Sandbox.
-
 \subsubsection{All Progressive Web Apps Must Be Installed via the App Store}
 
 Progressive web apps are installed in a manner similar to traditional apps on platforms like Google Play Store or Apple App Store. However, instead of native apps, users install PWAs. These apps run internally using Microsoft Edge, but direct access to the browser itself is restricted.
@@ -67,10 +63,6 @@ Web pages often include external links that could redirect users to malicious we
 \subsubsection{Restrict Permission Changes}
 
 Modern apps frequently request excessive permissions to exploit user data. In S Mode, users are prohibited from modifying app permissions to maintain data security.
-
-\subsubsection{Disallow Sideloading}
-
-Sideloading of both PWAs and browser extensions is strictly prohibited in S Mode.
 
 \subsubsection{Restrict Basic Settings Changes}
 
@@ -96,10 +88,6 @@ The iPhone's UI has become the de facto standard for mobile phone interfaces and
 
 Currently, PWAs are synchronized through Microsoft Edge, making them easily accessible for end users. To enhance usability in S Mode, these PWAs should be automatically synced, ensuring a seamless experience for users.
 
-\subsubsection{Integration with Trusted Platform Module for Sensitive Apps}
-
-Sensitive PWAs, such as the Chase Bank App, can enhance security by leveraging the Trusted Platform Module\cite{10.1145/3320269.3372197} to verify the integrity of both the Edge browser engine and the banking application's code. This ensures that sensitive operations are executed within the app's sandbox, with their integrity fully guaranteed.
-
 \subsection{P Mode}
 
 P Mode represents the Windows environment in its standard form. It allows users to perform tasks such as running \texttt{.exe} files, utilizing browsers, accessing the Windows Subsystem for Linux, using \texttt{cmd} and PowerShell, editing the registry (\texttt{regedit}), and rebooting into UEFI to install other operating systems. Logging into P Mode signifies that the user is a power user, comparable to utilizing \texttt{unsafe} blocks in programming languages like C\# or Rust. It conveys to the operating system: "I understand the risks and am fully capable of managing them. Please grant me unrestricted access to perform my tasks."
@@ -116,9 +104,9 @@ P Mode is designed for power users and is not intended to be a locked-down envir
 
 While S Mode restricts changes to date, time, and timezone settings, P Mode must provide full access to these configurations. This highlights the versatility of the S/P mode toggle compared to fully locked platforms like iPhones, where errors in settings can arise due to the absence of boundaries for unsafe operations. In the pursuit of complete safety, unintended vulnerabilities may emerge—this toggle offers a balance.
 
-\subsubsection{Allow Sideloading of PWAs and Browser Extensions into S Mode}
+\subsubsection{Allow installing of PWAs and Browser Extensions into S Mode}
 
-Since PWAs are essentially websites, sideloading them into S Mode should be straightforward—users can simply input URLs to initiate the process. Additionally, the Edge browser in P Mode can feature an option that allows users to install PWAs and Chromium extensions directly into S Mode.
+Since PWAs are essentially websites, installing them into S Mode should be straightforward—users can simply input URLs to initiate the process. Additionally, the Edge browser in P Mode can feature an option that allows users to install PWAs and Chromium extensions directly into S Mode.
 
 \subsubsection{Centralized Permission Management for PWAs in S Mode}
 
@@ -138,10 +126,4 @@ In addition to shared storage for Progressive Web Apps, each PWA can maintain it
 
 \subsubsection{Popup Suggestions for Entering S Mode in Sensitive Apps}
 
-Sensitive applications, such as banking PWAs like Chase, require heightened security measures. In this context, browsers operating in power user mode should provide a discreet suggestion prompting users to switch to S Mode for enhanced protection. To ensure a seamless user experience, these prompts should be limited in frequency and appear only for sensitive applications. Unless mandated by a bank's policy to enforce the use of S Mode, these suggestions should remain optional, allowing users to make the choice without feeling overwhelmed by intrusive notifications.
-
-\subsubsection{Gradually Expand Options for Modifying S Mode Settings}
-
-The aforementioned list outlines initial options for modifying S Mode settings. Over time, users may require additional flexibility, such as changing the browser engine used for PWAs instead of relying solely on Microsoft Edge. However, this introduces potential security risks—if the browser engine originates from a malicious source, it could compromise the entire system, as illustrated by scenarios like using a Chase Bank PWA. To mitigate these risks, modifications should only be allowed through the App Store in P Mode or by requiring cryptographic signatures provided by Microsoft to verify the integrity of the browser engine. These changes must be implemented with caution and gradually.
-
-Additional options, such as enabling the sideloading of Win32 sandbox applications into S Mode, could pose significant security risks. Unfortunately, many apps vendors—such as WeChat—choose to monetize user data rather than offering PWAs. To ensure the security and integrity of S Mode, these features must be implemented thoughtfully and incrementally. Nonetheless, Progressive Web Apps should remain the preferred method for app delivery over Win32 sandbox applications, as PWAs inherently add an extra layer of sandboxing through the browser engine.
+Sensitive applications, such as banking PWAs like Chase, require heightened security measures. In this context, browsers operating in power user mode can provide a discreet suggestion prompting users to switch to S Mode for enhanced protection. To ensure a seamless user experience, these prompts should be limited in frequency and appear only for sensitive applications. Unless mandated by a bank's policy to enforce the use of S Mode, these suggestions should remain optional, allowing users to make the choice without feeling overwhelmed by intrusive notifications.

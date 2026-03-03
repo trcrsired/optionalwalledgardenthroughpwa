@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: bib.bib
+Warning--I didn't find a database entry for "notepadSelfSigned"
+Warning--I didn't find a database entry for "perzanowskiEndOfOwnership"
+Warning--I didn't find a database entry for "wasmMemoryTagging2024"
+Warning--no key, author in statcounter
+Warning--no author, editor, organization, or key in statcounter
+Warning--to sort, need author or key in statcounter
+Warning--no key, author in statcounter
+Warning--no key, author in statcounter
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no key, author in statcounter
+Warning--no author, editor, organization, or key in statcounter
+Warning--numpages field, but no articleno or eid field, in 10.1007/978-3-031-56063-7_4
+Warning--numpages field, but no articleno or eid field, in 10.1145/2508148.2485970
+Warning--empty publisher in 8399228
+Warning--empty address in 8399228
+Warning--no number and no volume in greengardfightingrighttorepair2025
+Warning--page numbers missing in both pages and numpages fields in greengardfightingrighttorepair2025
+Warning--numpages field, but no articleno or eid field, in 10.1145/3140587.3062363
+Warning--numpages field, but no articleno or eid field, in 10.1145/3062341.3062363
+Warning--numpages field, but no articleno or eid field, in 10.1145/3548606.3560615
+Warning--empty address in 255318
+Warning--numpages field, but no articleno or eid field, in 10.1145/3079856.3080223
+Warning--numpages field, but no articleno or eid field, in 10.1016/j.knosys.2018.04.033
+Warning--empty publisher in 7178304
+Warning--empty address in 7178304
+Warning--numpages field, but no articleno or eid field, in 10.1145/3385412.3386036
+Warning--can't use both volume and number fields in rasthofer2014machine
+Warning--empty publisher in rasthofer2014machine
+Warning--empty address in rasthofer2014machine
+Warning--page numbers missing in both pages and numpages fields in rasthofer2014machine
+Warning--empty publisher in 6377758
+Warning--empty address in 6377758
+Warning--numpages field, but no articleno or eid field, in 10.1145/2484313.2484316
+You've used 52 entries,
+            5706 wiz_defined-function locations,
+            1616 strings with 25458 characters,
+and the built_in function-call counts, 73602 in all, are:
+= -- 9526
+> -- 1669
+< -- 0
++ -- 464
+- -- 2738
+* -- 5220
+:= -- 7190
+add.period$ -- 287
+call.type$ -- 52
+change.case$ -- 319
+chr.to.int$ -- 46
+cite$ -- 85
+duplicate$ -- 3782
+empty$ -- 2813
+format.name$ -- 658
+if$ -- 14830
+int.to.chr$ -- 7
+int.to.str$ -- 0
+missing$ -- 78
+newline$ -- 600
+num.names$ -- 402
+pop$ -- 1620
+preamble$ -- 1
+purify$ -- 573
+quote$ -- 0
+skip$ -- 1616
+stack$ -- 0
+substring$ -- 11390
+swap$ -- 363
+text.length$ -- 4316
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1440
+warning$ -- 29
+while$ -- 398
+width$ -- 0
+write$ -- 1090
+(There were 32 warnings)

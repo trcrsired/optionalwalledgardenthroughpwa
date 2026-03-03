@@ -1,0 +1,767 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{sta}{2025}]%
+        {statcounter}
+ \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{StatCounter Global Stats}.
+\newblock   (\bibinfo{year}{2025}).
+\newblock
+\showURL{%
+\url{https://gs.statcounter.com/}}
+\newblock
+\shownote{Accessed: 2025-03-23.}
+
+
+\bibitem[\protect\citeauthoryear{Apple}{Apple}{2021}]%
+        {apple2021trusted}
+\bibfield{author}{\bibinfo{person}{Apple}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Building a Trusted Ecosystem for Millions of Apps: A
+  Threat Analysis of Sideloading}.
+\newblock   (\bibinfo{year}{2021}).
+\newblock
+\showURL{%
+\url{https://www.apple.com/privacy/docs/Building_a_Trusted_Ecosystem_for_Millions_of_Apps.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Apple}{Apple}{nd}]%
+        {appleAppSandbox}
+\bibfield{author}{\bibinfo{person}{Apple}.} \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{App Sandbox - Apple Developer Documentation}.
+\newblock   (\bibinfo{year}{n.d.}).
+\newblock
+\showURL{%
+\url{https://developer.apple.com/documentation/security/app-sandbox}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Bevendorff, Wiegmann, Potthast, and
+  Stein}{Bevendorff et~al\mbox{.}}{2024}]%
+        {10.1007/978-3-031-56063-7_4}
+\bibfield{author}{\bibinfo{person}{Janek Bevendorff}, \bibinfo{person}{Matti
+  Wiegmann}, \bibinfo{person}{Martin Potthast}, {and} \bibinfo{person}{Benno
+  Stein}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Is Google Getting Worse? A Longitudinal
+  Investigation of SEO Spam in Search Engines}. In \bibinfo{booktitle}{{\em
+  Advances in Information Retrieval: 46th European Conference on Information
+  Retrieval, ECIR 2024, Glasgow, UK, March 24–28, 2024, Proceedings, Part
+  III}}. \bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{Berlin,
+  Heidelberg}, \bibinfo{pages}{56–71}.
+\newblock
+\showISBNx{978-3-031-56062-0}
+\showDOI{%
+\url{https://doi.org/10.1007/978-3-031-56063-7_4}}
+
+
+\bibitem[\protect\citeauthoryear{Bruchon}{Bruchon}{nd}]%
+        {win11stop}
+\bibfield{author}{\bibinfo{person}{Jody Bruchon}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{Windows 11 Must Be Stopped - A Veteran PC Repair Shop
+  Owner's Dire Warning - Jody Bruchon}.
+\newblock   (\bibinfo{year}{n.d.}).
+\newblock
+\showURL{%
+\url{https://youtu.be/LcafzHL8iBQ}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{{CBS Sunday Morning}}{{CBS Sunday
+  Morning}}{2024}]%
+        {cbsEwasteTragicCosts}
+\bibfield{author}{\bibinfo{person}{{CBS Sunday Morning}}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{The Tragic Costs of E-Waste}.
+\newblock \bibinfo{howpublished}{\url{https://youtu.be/4GtWGHvX-rk}}.
+  (\bibinfo{year}{2024}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
+\bibitem[\protect\citeauthoryear{Commission}{Commission}{2024}]%
+        {europa2024apple}
+\bibfield{author}{\bibinfo{person}{European Commission}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Commission Sends Preliminary Findings to Apple and
+  Opens Additional Non-Compliance Investigation Against Apple Under the Digital
+  Markets Act}.
+\newblock   (\bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://ec.europa.eu/commission/presscorner/detail/en/ip_24_3433}}
+
+
+\bibitem[\protect\citeauthoryear{Community}{Community}{nd}]%
+        {whatsWrongWithSnaps}
+\bibfield{author}{\bibinfo{person}{Reddit~User Community}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{What's wrong with snaps, why so many people hate it?}
+\newblock   (\bibinfo{year}{n.d.}).
+\newblock
+\showURL{%
+\url{https://www.reddit.com/r/linux/comments/j3ajnf/whats_wrong_with_snaps_why_so_many_people_hate_it/}}
+\newblock
+\shownote{Accessed: 2025-03-23.}
+
+
+\bibitem[\protect\citeauthoryear{contributors}{contributors}{2024}]%
+        {wikipedia2024crowdstrike}
+\bibfield{author}{\bibinfo{person}{Wikipedia contributors}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{2024 CrowdStrike-related IT outages}.
+\newblock   (\bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Demme, Maycock, Schmitz, Tang, Waksman,
+  Sethumadhavan, and Stolfo}{Demme et~al\mbox{.}}{2013}]%
+        {10.1145/2508148.2485970}
+\bibfield{author}{\bibinfo{person}{John Demme}, \bibinfo{person}{Matthew
+  Maycock}, \bibinfo{person}{Jared Schmitz}, \bibinfo{person}{Adrian Tang},
+  \bibinfo{person}{Adam Waksman}, \bibinfo{person}{Simha Sethumadhavan}, {and}
+  \bibinfo{person}{Salvatore Stolfo}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{On the feasibility of online malware detection with
+  performance counters}.
+\newblock \bibinfo{journal}{{\em SIGARCH Comput. Archit. News\/}}
+  \bibinfo{volume}{41}, \bibinfo{number}{3} (\bibinfo{date}{June}
+  \bibinfo{year}{2013}), \bibinfo{pages}{559–570}.
+\newblock
+\showISSN{0163-5964}
+\showDOI{%
+\url{https://doi.org/10.1145/2508148.2485970}}
+
+
+\bibitem[\protect\citeauthoryear{EDGECELSIOR}{EDGECELSIOR}{2024}]%
+        {microsoftBannedCPlusPlus}
+\bibfield{author}{\bibinfo{person}{EDGECELSIOR}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Windows Phone WTF: EPISODE 7 - THE DREADED APP GAP,
+  Microsoft banned C++ in UWP}.
+\newblock   (\bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://youtu.be/-eF4Fdgi3KA}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{for Market~Regulation}{for
+  Market~Regulation}{2025}]%
+        {samr2025google}
+\bibfield{author}{\bibinfo{person}{State~Administration for
+  Market~Regulation}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{China's National Market Supervision Administration
+  Decides to Investigate Google for Suspected Monopoly Law Violations}.
+\newblock   (\bibinfo{year}{2025}).
+\newblock
+\showURL{%
+\url{https://www.samr.gov.cn/xw/zj/art/2025/art_396a9ab3aa6d4c4bbd40833815afd245.html}}
+
+
+\bibitem[\protect\citeauthoryear{Fortunato and Bernardino}{Fortunato and
+  Bernardino}{2018}]%
+        {8399228}
+\bibfield{author}{\bibinfo{person}{David Fortunato} {and}
+  \bibinfo{person}{Jorge Bernardino}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Progressive web apps: An alternative to the native
+  mobile Apps}. In \bibinfo{booktitle}{{\em 2018 13th Iberian Conference on
+  Information Systems and Technologies (CISTI)}}. \bibinfo{pages}{1--6}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.23919/CISTI.2018.8399228}}
+
+
+\bibitem[\protect\citeauthoryear{FreeBSDfan}{FreeBSDfan}{2024}]%
+        {FreeBSDfan2024}
+\bibfield{author}{\bibinfo{person}{FreeBSDfan}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{We need a real GNU/Linux (not Android) smartphone
+  ecosystem}.
+\newblock   (\bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://www.reddit.com/r/linux/comments/1fx5fq0/we_need_a_real_gnulinux_not_android_smartphone/}}
+\newblock
+\shownote{Accessed: 27 March 2025.}
+
+
+\bibitem[\protect\citeauthoryear{Greengard}{Greengard}{2025}]%
+        {greengardfightingrighttorepair2025}
+\bibfield{author}{\bibinfo{person}{Samuel Greengard}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Fighting for the Right to Repair}.
+\newblock \bibinfo{journal}{{\it Commun. ACM}} (\bibinfo{date}{Sept.}
+  \bibinfo{year}{2025}).
+\newblock
+\showURL{%
+\url{https://cacm.acm.org/news/fighting-for-the-right-to-repair}}
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
+\bibitem[\protect\citeauthoryear{Haas, Rossberg, Schuff, Titzer, Holman,
+  Gohman, Wagner, Zakai, and Bastien}{Haas et~al\mbox{.}}{2017a}]%
+        {10.1145/3140587.3062363}
+\bibfield{author}{\bibinfo{person}{Andreas Haas}, \bibinfo{person}{Andreas
+  Rossberg}, \bibinfo{person}{Derek~L. Schuff}, \bibinfo{person}{Ben~L.
+  Titzer}, \bibinfo{person}{Michael Holman}, \bibinfo{person}{Dan Gohman},
+  \bibinfo{person}{Luke Wagner}, \bibinfo{person}{Alon Zakai}, {and}
+  \bibinfo{person}{JF Bastien}.} \bibinfo{year}{2017}\natexlab{a}.
+\newblock \showarticletitle{Bringing the web up to speed with WebAssembly}.
+\newblock \bibinfo{journal}{{\em SIGPLAN Not.\/}} \bibinfo{volume}{52},
+  \bibinfo{number}{6} (\bibinfo{date}{June} \bibinfo{year}{2017}),
+  \bibinfo{pages}{185–200}.
+\newblock
+\showISSN{0362-1340}
+\showDOI{%
+\url{https://doi.org/10.1145/3140587.3062363}}
+
+
+\bibitem[\protect\citeauthoryear{Haas, Rossberg, Schuff, Titzer, Holman,
+  Gohman, Wagner, Zakai, and Bastien}{Haas et~al\mbox{.}}{2017b}]%
+        {10.1145/3062341.3062363}
+\bibfield{author}{\bibinfo{person}{Andreas Haas}, \bibinfo{person}{Andreas
+  Rossberg}, \bibinfo{person}{Derek~L. Schuff}, \bibinfo{person}{Ben~L.
+  Titzer}, \bibinfo{person}{Michael Holman}, \bibinfo{person}{Dan Gohman},
+  \bibinfo{person}{Luke Wagner}, \bibinfo{person}{Alon Zakai}, {and}
+  \bibinfo{person}{JF Bastien}.} \bibinfo{year}{2017}\natexlab{b}.
+\newblock \showarticletitle{Bringing the web up to speed with WebAssembly}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 38th ACM SIGPLAN Conference on
+  Programming Language Design and Implementation}} {\em (\bibinfo{series}{PLDI
+  2017})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{185–200}.
+\newblock
+\showISBNx{9781450349888}
+\showDOI{%
+\url{https://doi.org/10.1145/3062341.3062363}}
+
+
+\bibitem[\protect\citeauthoryear{Haney}{Haney}{2022}]%
+        {nistUsersNotStupid}
+\bibfield{author}{\bibinfo{person}{Julie Haney}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Users are not stupid: Six cyber security pitfalls
+  overturned}.
+\newblock   (\bibinfo{year}{2022}).
+\newblock
+\showURL{%
+\url{https://csrc.nist.gov/csrc/media/Projects/usable-cybersecurity/documents/Final_Proof_Users_are_not_stupid.pdf}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Haney}{Haney}{2023}]%
+        {haney2023users}
+\bibfield{author}{\bibinfo{person}{Julie Haney}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Users Are Not Stupid: Six Cyber Security Pitfalls
+  Overturned}.
+\newblock   (\bibinfo{year}{2023}).
+\newblock
+\showURL{%
+\url{https://csrc.nist.gov/csrc/media/Projects/usable-cybersecurity/documents/Final_Proof_Users_are_not_stupid.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Hildenbrand}{Hildenbrand}{2021}]%
+        {androidcentralLinuxKernel}
+\bibfield{author}{\bibinfo{person}{Jerry Hildenbrand}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Android will never be supported by the 'regular'
+  Linux kernel, but that won't stop Google from trying}.
+\newblock   (\bibinfo{year}{2021}).
+\newblock
+\showURL{%
+\url{https://www.androidcentral.com/android-will-never-be-supported-regular-linux-kernel-thats-not-stopping-google-trying}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Hospodar, Gierlichs, De~Mulder, Verbauwhede,
+  and Vandewalle}{Hospodar et~al\mbox{.}}{2011}]%
+        {hospodar2011machine}
+\bibfield{author}{\bibinfo{person}{Gabriel Hospodar}, \bibinfo{person}{Benedikt
+  Gierlichs}, \bibinfo{person}{Elke De~Mulder}, \bibinfo{person}{Ingrid
+  Verbauwhede}, {and} \bibinfo{person}{Joos Vandewalle}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Machine learning in side-channel analysis: a first
+  study}.
+\newblock \bibinfo{journal}{{\em Journal of Cryptographic Engineering\/}}
+  \bibinfo{volume}{1}, \bibinfo{number}{4} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{293--302}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Keep Android Open Project}}{{Keep Android
+  Open Project}}{2024}]%
+        {keepandroidopen}
+\bibfield{author}{\bibinfo{person}{{Keep Android Open Project}}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Keep Android Open}.
+\newblock \bibinfo{howpublished}{\url{https://keepandroidopen.org}}.
+  (\bibinfo{year}{2024}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
+\bibitem[\protect\citeauthoryear{Kim, Park, Hong, and Kim}{Kim
+  et~al\mbox{.}}{2022}]%
+        {10.1145/3548606.3560615}
+\bibfield{author}{\bibinfo{person}{Taeri Kim}, \bibinfo{person}{Noseong Park},
+  \bibinfo{person}{Jiwon Hong}, {and} \bibinfo{person}{Sang-Wook Kim}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Phishing URL Detection: A Network-based Approach
+  Robust to Evasion}. In \bibinfo{booktitle}{{\em Proceedings of the 2022 ACM
+  SIGSAC Conference on Computer and Communications Security}} {\em
+  (\bibinfo{series}{CCS '22})}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1769–1782}.
+\newblock
+\showISBNx{9781450394505}
+\showDOI{%
+\url{https://doi.org/10.1145/3548606.3560615}}
+
+
+\bibitem[\protect\citeauthoryear{Lehmann, Kinder, and Pradel}{Lehmann
+  et~al\mbox{.}}{2020}]%
+        {255318}
+\bibfield{author}{\bibinfo{person}{Daniel Lehmann}, \bibinfo{person}{Johannes
+  Kinder}, {and} \bibinfo{person}{Michael Pradel}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Everything Old is New Again: Binary Security of
+  {WebAssembly}}. In \bibinfo{booktitle}{{\em 29th USENIX Security Symposium
+  (USENIX Security 20)}}. \bibinfo{publisher}{USENIX Association},
+  \bibinfo{pages}{217--234}.
+\newblock
+\showISBNx{978-1-939133-17-5}
+\showURL{%
+\url{https://www.usenix.org/conference/usenixsecurity20/presentation/lehmann}}
+
+
+\bibitem[\protect\citeauthoryear{melontini}{melontini}{2025}]%
+        {melontini2025bootloader}
+\bibfield{author}{\bibinfo{person}{melontini}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Bootloader Unlock Wall of Shame}.
+\newblock   (\bibinfo{year}{2025}).
+\newblock
+\showURL{%
+\url{https://github.com/melontini/bootloader-unlock-wall-of-shame}}
+
+
+\bibitem[\protect\citeauthoryear{Microsoft}{Microsoft}{2024a}]%
+        {microsoftPhishingTrends}
+\bibfield{author}{\bibinfo{person}{Microsoft}.}
+  \bibinfo{year}{2024}\natexlab{a}.
+\newblock \bibinfo{title}{Phishing trends and techniques - Microsoft Defender
+  for Endpoint}.
+\newblock   (\bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://learn.microsoft.com/en-us/defender-endpoint/malware/phishing}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Microsoft}{Microsoft}{2024b}]%
+        {microsoftPreventMalware}
+\bibfield{author}{\bibinfo{person}{Microsoft}.}
+  \bibinfo{year}{2024}\natexlab{b}.
+\newblock \bibinfo{title}{Prevent malware infection - Microsoft Defender for
+  Endpoint}.
+\newblock   (\bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://learn.microsoft.com/en-us/defender-endpoint/malware/prevent-malware-infection}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Nazari, Sehatbakhsh, Alam, Zajic, and
+  Prvulovic}{Nazari et~al\mbox{.}}{2017}]%
+        {10.1145/3079856.3080223}
+\bibfield{author}{\bibinfo{person}{Alireza Nazari}, \bibinfo{person}{Nader
+  Sehatbakhsh}, \bibinfo{person}{Monjur Alam}, \bibinfo{person}{Alenka Zajic},
+  {and} \bibinfo{person}{Milos Prvulovic}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{EDDIE: EM-Based Detection of Deviations in Program
+  Execution}. In \bibinfo{booktitle}{{\em Proceedings of the 44th Annual
+  International Symposium on Computer Architecture}} {\em
+  (\bibinfo{series}{ISCA '17})}. \bibinfo{publisher}{Association for Computing
+  Machinery}, \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{333–346}.
+\newblock
+\showISBNx{9781450348928}
+\showDOI{%
+\url{https://doi.org/10.1145/3079856.3080223}}
+
+
+\bibitem[\protect\citeauthoryear{Nissim, Lapidot, Cohen, and Elovici}{Nissim
+  et~al\mbox{.}}{2018}]%
+        {10.1016/j.knosys.2018.04.033}
+\bibfield{author}{\bibinfo{person}{Nir Nissim}, \bibinfo{person}{Yuval
+  Lapidot}, \bibinfo{person}{Aviad Cohen}, {and} \bibinfo{person}{Yuval
+  Elovici}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Trusted system-calls analysis methodology aimed at
+  detection of compromised virtual machines using sequential mining}.
+\newblock \bibinfo{journal}{{\em Know.-Based Syst.\/}} \bibinfo{volume}{153},
+  \bibinfo{number}{C} (\bibinfo{date}{Aug.} \bibinfo{year}{2018}),
+  \bibinfo{pages}{147–175}.
+\newblock
+\showISSN{0950-7051}
+\showDOI{%
+\url{https://doi.org/10.1016/j.knosys.2018.04.033}}
+
+
+\bibitem[\protect\citeauthoryear{of~Justice}{of~Justice}{2024}]%
+        {usdoj2024apple}
+\bibfield{author}{\bibinfo{person}{United States~Department of Justice}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Justice Department Sues Apple for Monopolizing
+  Smartphone Markets}.
+\newblock   (\bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://www.justice.gov/archives/opa/pr/justice-department-sues-apple-monopolizing-smartphone-markets}}
+
+
+\bibitem[\protect\citeauthoryear{Or-Meir, Nissim, Elovici, and Rokach}{Or-Meir
+  et~al\mbox{.}}{2019}]%
+        {10.1145/3329786}
+\bibfield{author}{\bibinfo{person}{Ori Or-Meir}, \bibinfo{person}{Nir Nissim},
+  \bibinfo{person}{Yuval Elovici}, {and} \bibinfo{person}{Lior Rokach}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dynamic Malware Analysis in the Modern Era—A
+  State of the Art Survey}.
+\newblock \bibinfo{journal}{{\em ACM Comput. Surv.\/}} \bibinfo{volume}{52},
+  \bibinfo{number}{5}, Article \bibinfo{articleno}{88} (\bibinfo{date}{Sept.}
+  \bibinfo{year}{2019}), \bibinfo{numpages}{48}~pages.
+\newblock
+\showISSN{0360-0300}
+\showDOI{%
+\url{https://doi.org/10.1145/3329786}}
+
+
+\bibitem[\protect\citeauthoryear{Pascanu, Stokes, Sanossian, Marinescu, and
+  Thomas}{Pascanu et~al\mbox{.}}{2015}]%
+        {7178304}
+\bibfield{author}{\bibinfo{person}{Razvan Pascanu}, \bibinfo{person}{Jack~W.
+  Stokes}, \bibinfo{person}{Hermineh Sanossian}, \bibinfo{person}{Mady
+  Marinescu}, {and} \bibinfo{person}{Anil Thomas}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Malware classification with recurrent networks}. In
+  \bibinfo{booktitle}{{\em 2015 IEEE International Conference on Acoustics,
+  Speech and Signal Processing (ICASSP)}}. \bibinfo{pages}{1916--1920}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/ICASSP.2015.7178304}}
+
+
+\bibitem[\protect\citeauthoryear{Project}{Project}{nda}]%
+        {androidvulnerabilitiesByYear}
+\bibfield{author}{\bibinfo{person}{Android~Vulnerabilities Project}.}
+  \bibinfo{year}{n.d.}\natexlab{a}.
+\newblock \bibinfo{title}{Android Vulnerabilities by Year}.
+\newblock   (\bibinfo{year}{n.d.}).
+\newblock
+\showURL{%
+\url{https://androidvulnerabilities.org/by/year/}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Project}{Project}{ndb}]%
+        {ruleOf2}
+\bibfield{author}{\bibinfo{person}{Chromium Project}.}
+  \bibinfo{year}{n.d.}\natexlab{b}.
+\newblock \bibinfo{title}{The Rule of 2 - Chromium Security Documentation}.
+\newblock   (\bibinfo{year}{n.d.}).
+\newblock
+\showURL{%
+\url{https://chromium.googlesource.com/chromium/src/+/master/docs/security/rule-of-2.md}}
+\newblock
+\shownote{Accessed: 2025-03-23.}
+
+
+\bibitem[\protect\citeauthoryear{Project}{Project}{2025}]%
+        {GNUtivoization}
+\bibfield{author}{\bibinfo{person}{GNU Project}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Tivoization}.
+\newblock   (\bibinfo{year}{2025}).
+\newblock
+\showURL{%
+\url{https://www.gnu.org/philosophy/tivoization.html}}
+\newblock
+\shownote{Accessed: 27 March 2025.}
+
+
+\bibitem[\protect\citeauthoryear{Qin, Chen, Yu, Song, and Zhang}{Qin
+  et~al\mbox{.}}{2020}]%
+        {10.1145/3385412.3386036}
+\bibfield{author}{\bibinfo{person}{Boqin Qin}, \bibinfo{person}{Yilun Chen},
+  \bibinfo{person}{Zeming Yu}, \bibinfo{person}{Linhai Song}, {and}
+  \bibinfo{person}{Yiying Zhang}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Understanding memory and thread safety practices
+  and issues in real-world Rust programs}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design
+  and Implementation}} {\em (\bibinfo{series}{PLDI 2020})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{763–779}.
+\newblock
+\showISBNx{9781450376136}
+\showDOI{%
+\url{https://doi.org/10.1145/3385412.3386036}}
+
+
+\bibitem[\protect\citeauthoryear{Rasthofer, Arzt, and Bodden}{Rasthofer
+  et~al\mbox{.}}{2014}]%
+        {rasthofer2014machine}
+\bibfield{author}{\bibinfo{person}{Siegfried Rasthofer},
+  \bibinfo{person}{Steven Arzt}, {and} \bibinfo{person}{Eric Bodden}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A machine-learning approach for classifying and
+  categorizing android sources and sinks}. In \bibinfo{booktitle}{{\em NDSS}},
+  Vol.~\bibinfo{volume}{14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schwenk and Rieck}{Schwenk and Rieck}{2011}]%
+        {6377758}
+\bibfield{author}{\bibinfo{person}{Guido Schwenk} {and} \bibinfo{person}{Konrad
+  Rieck}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Adaptive Detection of Covert Communication in HTTP
+  Requests}. In \bibinfo{booktitle}{{\em 2011 Seventh European Conference on
+  Computer Network Defense}}. \bibinfo{pages}{25--32}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/EC2ND.2011.12}}
+
+
+\bibitem[\protect\citeauthoryear{{S/P Mode Project}}{{S/P Mode
+  Project}}{2026a}]%
+        {pwageolocation}
+\bibfield{author}{\bibinfo{person}{{S/P Mode Project}}.}
+  \bibinfo{year}{2026}\natexlab{a}.
+\newblock \bibinfo{title}{PWA Geolocation}.
+\newblock \bibinfo{howpublished}{\url{https://pwa-geolocation.pages.dev}}.
+  (\bibinfo{year}{2026}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
+\bibitem[\protect\citeauthoryear{{S/P Mode Project}}{{S/P Mode
+  Project}}{2026b}]%
+        {pwaplayer}
+\bibfield{author}{\bibinfo{person}{{S/P Mode Project}}.}
+  \bibinfo{year}{2026}\natexlab{b}.
+\newblock \bibinfo{title}{PWA Player}.
+\newblock \bibinfo{howpublished}{\url{https://pwa-player.pages.dev}}.
+  (\bibinfo{year}{2026}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
+\bibitem[\protect\citeauthoryear{{S/P Mode Project}}{{S/P Mode
+  Project}}{2026c}]%
+        {pwastore}
+\bibfield{author}{\bibinfo{person}{{S/P Mode Project}}.}
+  \bibinfo{year}{2026}\natexlab{c}.
+\newblock \bibinfo{title}{PWA Store}.
+\newblock \bibinfo{howpublished}{\url{https://pwa-store-7x5.pages.dev}}.
+  (\bibinfo{year}{2026}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
+\bibitem[\protect\citeauthoryear{{S/P Mode Project}}{{S/P Mode
+  Project}}{2026d}]%
+        {wasmpass}
+\bibfield{author}{\bibinfo{person}{{S/P Mode Project}}.}
+  \bibinfo{year}{2026}\natexlab{d}.
+\newblock \bibinfo{title}{WasmPass}.
+\newblock \bibinfo{howpublished}{\url{https://wasmpass.pages.dev}}.
+  (\bibinfo{year}{2026}).
+\newblock
+\newblock
+\shownote{Accessed: 2026-03-03.}
+
+
+\bibitem[\protect\citeauthoryear{Support}{Support}{Year}]%
+        {MicrosoftSModeFAQ}
+\bibfield{author}{\bibinfo{person}{Microsoft Support}.} \bibinfo{year}{Access
+  Year}\natexlab{}.
+\newblock \bibinfo{title}{Windows 10 and Windows 11 in S mode FAQ}.
+\newblock   (\bibinfo{year}{Access Year}).
+\newblock
+\showURL{%
+\url{https://support.microsoft.com/en-us/windows/windows-10-and-windows-11-in-s-mode-faq-851057d6-1ee9-b9e5-c30b-93baebeebc85}}
+\newblock
+\shownote{Accessed: 27 March 2025.}
+
+
+\bibitem[\protect\citeauthoryear{Team}{Team}{2025}]%
+        {scarewareBlocker}
+\bibfield{author}{\bibinfo{person}{Microsoft~Edge Team}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Stand up to scareware with scareware blocker}.
+\newblock   (\bibinfo{year}{2025}).
+\newblock
+\showURL{%
+\url{https://blogs.windows.com/msedgedev/2025/01/27/stand-up-to-scareware-with-scareware-blocker/}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Tech}{Tech}{2022}]%
+        {ubuntuDecline}
+\bibfield{author}{\bibinfo{person}{Chris~Titus Tech}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Ubuntu's Decline}.
+\newblock   (\bibinfo{year}{2022}).
+\newblock
+\showURL{%
+\url{https://www.youtube.com/watch?v=pMfqCzbSmQU}}
+\newblock
+\shownote{Accessed: 2025-03-23.}
+
+
+\bibitem[\protect\citeauthoryear{Thoman}{Thoman}{2016}]%
+        {pcgamerUniversalApps}
+\bibfield{author}{\bibinfo{person}{Peter~"Durante" Thoman}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{Why PC games should never become universal 'apps'}.
+\newblock   (\bibinfo{year}{2016}).
+\newblock
+\showURL{%
+\url{https://www.pcgamer.com/why-pc-games-should-never-become-universal-apps/}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{user}{user}{2020}]%
+        {githubRufusUWP}
+\bibfield{author}{\bibinfo{person}{GitHub user}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Why do you hate UWP? Seems promising thing}.
+\newblock   (\bibinfo{year}{2020}).
+\newblock
+\showURL{%
+\url{https://github.com/pbatard/rufus/issues/1617}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{user}{user}{nd}]%
+        {redditRufusUWP}
+\bibfield{author}{\bibinfo{person}{Reddit user}.}
+  \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{Creator of Rufus outlines the problems with
+  Microsoft's UWP}.
+\newblock   (\bibinfo{year}{n.d.}).
+\newblock
+\showURL{%
+\url{https://www.reddit.com/r/programming/comments/noagrx/creator_of_rufus_outlines_the_problems_with/}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{W}{W}{2024}]%
+        {webassemblymemorytagging}
+\bibfield{author}{\bibinfo{person}{Shengdun W}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Public Presentation for WebAssembly Memory Tagging}.
+\newblock   (\bibinfo{date}{25 November} \bibinfo{year}{2024}).
+\newblock
+\showURL{%
+\url{https://www.youtube.com/live/8W9faYGooqA}}
+\newblock
+\shownote{Streamed live, 64 views as of access. No description provided.
+  Accessed: 2025-03-23.}
+
+
+\bibitem[\protect\citeauthoryear{WebAssembly}{WebAssembly}{2025}]%
+        {WebAssembly2025}
+\bibfield{author}{\bibinfo{person}{WebAssembly}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{WebAssembly}.
+\newblock \bibinfo{howpublished}{\url{https://webassembly.org/}}.
+  (\bibinfo{year}{2025}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{web.dev}{web.dev}{nd}]%
+        {webDevPWA}
+\bibfield{author}{\bibinfo{person}{web.dev}.} \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{title}{Progressive Web Apps - Learn PWA}.
+\newblock   (\bibinfo{year}{n.d.}).
+\newblock
+\showURL{%
+\url{https://web.dev/learn/pwa/progressive-web-apps?hl=fr}}
+\newblock
+\shownote{Accessed: 2025-03-21.}
+
+
+\bibitem[\protect\citeauthoryear{Werthmann, Hund, Davi, Sadeghi, and
+  Holz}{Werthmann et~al\mbox{.}}{2013}]%
+        {10.1145/2484313.2484316}
+\bibfield{author}{\bibinfo{person}{Tim Werthmann}, \bibinfo{person}{Ralf Hund},
+  \bibinfo{person}{Lucas Davi}, \bibinfo{person}{Ahmad-Reza Sadeghi}, {and}
+  \bibinfo{person}{Thorsten Holz}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{PSiOS: bring your own privacy \& security to iOS
+  devices}. In \bibinfo{booktitle}{{\em Proceedings of the 8th ACM SIGSAC
+  Symposium on Information, Computer and Communications Security}} {\em
+  (\bibinfo{series}{ASIA CCS '13})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{13–24}.
+\newblock
+\showISBNx{9781450317672}
+\showDOI{%
+\url{https://doi.org/10.1145/2484313.2484316}}
+
+
+\end{thebibliography}
