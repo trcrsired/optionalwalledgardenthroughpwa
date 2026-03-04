@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  3 MAR 2026 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.2)  4 MAR 2026 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2005,6 +2005,9 @@ e/lbtn_7grukw.enc}{C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
 c/dvips/libertine/lbtn_naooyc.enc}]) (background.tex
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 10.95pt on input line 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [2.2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2242,7 +2245,7 @@ fb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/L
 inLibertineTB.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/libertine/LinLibertineTI.pfb><C:/Users/unlvs/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (10 pages, 619904 bytes).
+Output written on main.pdf (10 pages, 619657 bytes).
 PDF statistics:
  502 PDF objects out of 1000 (max. 8388607)
  140 named destinations out of 1000 (max. 500000)
